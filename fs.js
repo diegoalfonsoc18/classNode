@@ -1,8 +1,8 @@
 const fs = require("fs");
 
-fs.readFile("inde.html", "utf-8", (err, contenido) => {
+fs.readFile("index.html", "utf-8", (err, contenido) => {
   if (err) {
-    throw err;
+    console.log(err);
   } else {
     console.log(contenido);
   }
